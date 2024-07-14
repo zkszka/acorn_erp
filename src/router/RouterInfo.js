@@ -77,6 +77,10 @@ export const RouterInfo = createBrowserRouter([
         element: <StockMgmt />,
         children: [
           {
+            path: "purchaseMgmt",
+            element: <PurchaseMgmt />
+          },
+          {
 
             path: "materialMgmt",
             element: <MaterialMgmt />
@@ -85,10 +89,6 @@ export const RouterInfo = createBrowserRouter([
           {
             path: "DistributionMgmt",
             element: <DistributionMgmt />
-          },
-          {
-            path: "purchaseMgmt",
-            element: <PurchaseMgmt />
           },
           {
             path: "vendorMgmt",
